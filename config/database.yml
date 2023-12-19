@@ -1,0 +1,17 @@
+default: &default
+  host: localhost
+  user: Matt
+  password: ''
+  adapter: sqlite
+
+development:
+  <<: *default
+  db: northwind_development.sqlite3
+
+test:
+  <<: *default
+  db: northwind_test.sqlite3
+
+production:
+  <<: *default
+  db: northwind_production.sqlite3 

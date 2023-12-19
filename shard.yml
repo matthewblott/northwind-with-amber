@@ -32,10 +32,6 @@ dependencies:
     github: imdrasil/jennifer_sqlite3_adapter
     version: "~> 0.4.0"
 
-  sam:
-    github: imdrasil/sam.cr
-    version: 0.5.0
-    
   quartz_mailer:
     github: amberframework/quartz-mailer
     version: ~> 0.8.0
@@ -52,3 +48,6 @@ development_dependencies:
   ameba:
     github: crystal-ameba/ameba
     version: ~> 1.5.0
+  sam:
+    github: imdrasil/sam.cr
+    version: ~> 0.5.0
