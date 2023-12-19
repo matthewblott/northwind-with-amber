@@ -2,7 +2,7 @@ name: northwind-with-amber
 version: 0.1.0
 
 authors:
-  - quit <your-email-here>
+  - quit foo@example.com
 
 crystal: 1.10.1
 

@@ -1,7 +1,5 @@
 default: &default
-  host: localhost
-  user: Matt
-  password: ''
+  host: '.' 
   adapter: sqlite
 
 development:

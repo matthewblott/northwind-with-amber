@@ -11,3 +11,8 @@ production.yml
 /bin/
 /node_modules
 /public/dist
+
+# Sqlite
+*.db
+*.sqlite
+*.sqlite3
