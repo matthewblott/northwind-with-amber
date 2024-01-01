@@ -1,0 +1,4 @@
+2023-12-19T13:25:07.800578Z  DEBUG - db:  -- query: "SELECT \"sqlite_master\".* FROM \"sqlite_master\" WHERE \"sqlite_master\".\"type\" = ? AND \"sqlite_master\".\"tbl_name\" IN(?) ", args: ["table", "migration_versions"], time: 181.75
+2023-12-19T13:25:07.800638Z  DEBUG - db:  -- query: "SELECT EXISTS(SELECT 1 FROM \"sqlite_master\" WHERE \"sqlite_master\".\"type\" = ? AND \"sqlite_master\".\"name\" = ? )", args: ["table", "migration_versions"], time: 35.959
+2023-12-19T13:25:07.801977Z  DEBUG - db:  -- query: "CREATE TABLE migration_versions (version text NOT NULL)", args: [], time: 1314.959
+2023-12-19T13:25:07.802040Z  DEBUG - db:  -- query: "SELECT \"migration_versions\".\"version\" FROM \"migration_versions\" ", args: [], time: 43.25
